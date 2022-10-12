@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(194, 190, 190);
+}
+#logo {
+    height: 200px;
+    width: 350px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: orangered;
+}
+li {
+    list-style-type: none;
+ }
+.dropdown {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    padding-left: 0px;
+}
+.dropdown_link:hover + .dropdown {
+    display: flex;
+flex-direction: column;}
+.dropdown:hover {
+    display: flex;
+}
+button {
+        background-color: orangered;
+        color: black;
+    }
